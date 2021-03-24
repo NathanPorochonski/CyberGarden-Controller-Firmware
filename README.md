@@ -1,5 +1,5 @@
 # CyberGarden-Controller-Firmware
-Firmware for Particle Argon microcontroller to process sensor data
+Firmware for Particle Argon microcontroller to process sensor data.
 
 Currently, the firmware reads values from 3 capacitive moisture sensors through 3 analog input pins every 30 minutes. These values are then placed into a String buffer and then sent to an IOT Hub in Microsoft Azure using the "publish" function.
 
